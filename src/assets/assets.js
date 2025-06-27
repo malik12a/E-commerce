@@ -53,20 +53,36 @@ import flag4 from "./flag4.png";
 import flag5 from "./flag5.png";
 import flag6 from "./flag6.png";
 import flag7 from "./flag7.png";
-import flag8 from "./flag8.png";
 import flag9 from "./flag9.png";
 import flag10 from "./flag10.png";
-import sofa1 from "./sofa2.jpg";
+import sofa1 from "./sofa1.jpg";
 import sofa2 from "./sofa2.jpg";
 import stand from "./stand.jpg";
 import tablet from "./tablet.jpg";
 import washingmachine from "./washingmachine.jpg";
 import watch from "./watch.jpg";
-import Home_and_outdoor from "./Home_and_outdoor.png"
-import countdown from "./countdown.png"
-
-
+import Home_and_outdoor from "./Home_and_outdoor.png";
+import countdown from "./countdown.png";
+import gadget from "./gadget.png";
+import offer1 from "./offer1.png";
+import offer2 from "./offer2.png";
+import offer3 from "./offer3.png";
+import offer4 from "./offer4.png";
+import offer5 from "./offer5.png";
+import hero from "./hero.png";
+import ExtraService1 from "./ExtraService1.png";
+import ExtraService2 from "./ExtraService2.png";
+import ExtraService3 from "./ExtraService3.png";
+import ExtraService4 from "./ExtraService4.png";
+import appstore from "./appstore.png";
+import playstore from "./playstore.png";
+import list from "./list.png";
+import grid from "./grid.png";
+import seller from "./seller.png"
+import BannerBottom from "./BannerBottom.png"
 export const assets = {
+  BannerBottom,
+  seller,
   logo_colored ,
   Avatar,
   logo_symbol,
@@ -94,6 +110,44 @@ export const assets = {
   camera,
   headset1,
   mobile2,
+  Home_and_outdoor,
+  sofa1,
+  sofa2,
+  lamp,
+  juicemaker,
+  coffeemaker,
+  lamp,
+  bed,
+  pot,
+  stand,
+  plant,
+  gadget,
+  headset2,
+  jug,
+  tablet,
+  mobile1,
+  offer1,
+  offer2,
+  offer3,
+  offer4,
+  offer5,
+  hero,
+  ExtraService1,
+  ExtraService2,
+  ExtraService3,
+  ExtraService4,
+  flag2,
+  flag3,
+  flag4,
+  flag5,
+  flag6,
+  flag7,
+  flag9,
+  flag10,
+  appstore,
+  playstore,
+  list,
+  grid,
 };
 
 /*export const categories = [
@@ -139,76 +193,18 @@ export const assets = {
     image: grain_image,
     bgColor: "#F1E3F9",
   },
-];
-
-export const footerLinks = [
-  {
-    title: "Quick Links",
-    links: [
-      { text: "Home", url: "#" },
-      { text: "Best Sellers", url: "#" },
-      { text: "Offers & Deals", url: "#" },
-      { text: "Contact Us", url: "#" },
-      { text: "FAQs", url: "#" },
-    ],
-  },
-  {
-    title: "Need help?",
-    links: [
-      { text: "Delivery Information", url: "#" },
-      { text: "Return & Refund Policy", url: "#" },
-      { text: "Payment Methods", url: "#" },
-      { text: "Track your Order", url: "#" },
-      { text: "Contact Us", url: "#" },
-    ],
-  },
-  {
-    title: "Follow Us",
-    links: [
-      { text: "Instagram", url: "#" },
-      { text: "Twitter", url: "#" },
-      { text: "Facebook", url: "#" },
-      { text: "YouTube", url: "#" },
-    ],
-  },
-];
-
-export const features = [
-  {
-    icon: delivery_truck_icon,
-    title: "Fastest Delivery",
-    description: "Groceries delivered in under 30 minutes.",
-  },
-  {
-    icon: leaf_icon,
-    title: "Freshness Guaranteed",
-    description: "Fresh produce straight from the source.",
-  },
-  {
-    icon: coin_icon,
-    title: "Affordable Prices",
-    description: "Quality groceries at unbeatable prices.",
-  },
-  {
-    icon: trust_icon,
-    title: "Trusted by Thousands",
-    description: "Loved by 10,000+ happy customers.",
-  },
-];
-
+];*/
 export const dummyProducts = [
-  // Vegetables
   {
-    _id: "gd46g23h",
-    name: "Potato 500g",
-    category: "Vegetables",
-    price: 25,
-    offerPrice: 20,
-    image: [potato_image_1, potato_image_2, potato_image_3, potato_image_4],
+    _id: "gd46g25h",
+    name: "T-shirt with multiple colors for men",
+    category:"cloth",
+    price: 10.30,
+    image: [cloth1],
     description: [
-      "Fresh and organic",
-      "Rich in carbohydrates",
-      "Ideal for curries and fries",
+      "T-shirts",
+      "with multiple colors",
+      "for men",
     ],
     createdAt: "2025-03-25T07:17:46.018Z",
     updatedAt: "2025-03-25T07:18:13.103Z",
@@ -216,11 +212,10 @@ export const dummyProducts = [
   },
   {
     _id: "gd47g34h",
-    name: "Tomato 1 kg",
-    category: "Vegetables",
-    price: 40,
-    offerPrice: 35,
-    image: [tomato_image],
+    name: "Jeans jacket for men",
+    category:"cloth",
+    price: 10.30,
+    image: [cloth3],
     description: [
       "Juicy and ripe",
       "Rich in Vitamin C",
@@ -233,11 +228,10 @@ export const dummyProducts = [
   },
   {
     _id: "gd48g45h",
-    name: "Carrot 500g",
-    category: "Vegetables",
-    price: 30,
-    offerPrice: 28,
-    image: [carrot_image],
+    name: "Winter coat medium size",
+    category:"cloth",
+    price: 12.50,
+    image: [cloth7],
     description: [
       "Sweet and crunchy",
       "Good for eyesight",
@@ -249,11 +243,10 @@ export const dummyProducts = [
   },
   {
     _id: "gd49g56h",
-    name: "Spinach 500g",
-    category: "Vegetables",
-    price: 18,
-    offerPrice: 15,
-    image: [spinach_image_1],
+    name: "Blue leather wallet for men ",
+    category:"cloth",
+    price: 34,
+    image: [cloth6],
     description: [
       "Rich in iron",
       "High in vitamins",
@@ -265,11 +258,10 @@ export const dummyProducts = [
   },
   {
     _id: "gd50g67h",
-    name: "Onion 500g",
-    category: "Vegetables",
-    price: 22,
-    offerPrice: 19,
-    image: [onion_image_1],
+    name: "Jeans bag for travel",
+    category:"cloth",
+    price: 99,
+    image: [cloth5],
     description: [
       "Fresh and pungent",
       "Perfect for cooking",
@@ -279,15 +271,12 @@ export const dummyProducts = [
     updatedAt: "2025-03-25T07:18:13.103Z",
     inStock: true,
   },
-
-  // Fruits
   {
     _id: "ek51j12k",
-    name: "Apple 1 kg",
-    category: "Fruits",
-    price: 120,
-    offerPrice: 110,
-    image: [apple_image],
+    name: "Short jean for both men and women",
+    category:"cloth",
+    price: 99.99,
+    image: [cloth4],
     description: [
       "Crisp and juicy",
       "Rich in fiber",
@@ -301,11 +290,10 @@ export const dummyProducts = [
   },
   {
     _id: "ek52j23k",
-    name: "Orange 1 kg",
-    category: "Fruits",
-    price: 80,
-    offerPrice: 75,
-    image: [orange_image],
+    name: "Headset for gaming with mic",
+    category:"assesories",
+    price: 8.99,
+    image: [headset1],
     description: [
       "Juicy and sweet",
       "Rich in Vitamin C",
@@ -317,11 +305,10 @@ export const dummyProducts = [
   },
   {
     _id: "ek53j34k",
-    name: "Banana 1 kg",
-    category: "Fruits",
-    price: 50,
-    offerPrice: 45,
-    image: [banana_image_1],
+    name: "Jeans bag for men",
+    category:"cloth",
+    price: 10.30,
+    image: [cloth5],
     description: [
       "Sweet and ripe",
       "High in potassium",
@@ -329,16 +316,15 @@ export const dummyProducts = [
     ],
     createdAt: "2025-03-25T07:17:46.018Z",
     updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: false,
+    inStock: true,
   },
   {
     _id: "ek54j45k",
-    name: "Mango 1 kg",
-    category: "Fruits",
-
-    price: 150,
+    name: "Pot for kitchen",
+    category:"Home ",
+    price: 10.30,
     offerPrice: 140,
-    image: [mango_image_1],
+    image: [pot],
     description: [
       "Sweet and flavorful",
       "Perfect for smoothies and desserts",
@@ -350,11 +336,10 @@ export const dummyProducts = [
   },
   {
     _id: "ek55j56k",
-    name: "Grapes 500g",
-    category: "Fruits",
-    price: 70,
-    offerPrice: 65,
-    image: [grapes_image_1],
+    name: "Electric kattle for home ",
+    category:"home",
+    price: 80.95,
+    image: [jug],
     description: [
       "Fresh and juicy",
       "Rich in antioxidants",
@@ -364,25 +349,27 @@ export const dummyProducts = [
     updatedAt: "2025-03-25T07:18:13.103Z",
     inStock: true,
   },
-
-  // Dairy
+  //Mobliles
   {
-    _id: "ek56j67k",
-    name: "Amul Milk 1L",
-    category: "Dairy",
-    price: 60,
-    offerPrice: 55,
-    image: [amul_milk_image],
+    _id: "gd46g23h",
+    name: "T-shirt with multiple colors for men",
+    category:"Smart phones",
+    brand: "Samsung",
+    feature: ["Plastic color","8GB RAM","Large Memory"],
+    condition:"Brand new",
+    price: 10.30,
+    image: [mobile2],
     description: [
-      "Pure and fresh",
-      "Rich in calcium",
-      "Ideal for tea, coffee, and desserts",
-      "Trusted brand quality",
+      "T-shirts",
+      "with multiple colors",
+      "for men",
     ],
     createdAt: "2025-03-25T07:17:46.018Z",
     updatedAt: "2025-03-25T07:18:13.103Z",
     inStock: true,
   },
+]
+ /* 
   {
     _id: "ek57j78k",
     name: "Paneer 200g",
@@ -776,9 +763,9 @@ export const dummyProducts = [
     updatedAt: "2025-03-25T07:18:13.103Z",
     inStock: true,
   },
-];
+];*/
 
-export const dummyAddress = [
+/*export const dummyAddress = [
   {
     _id: "67b5b9e54ea97f71bbc196a0",
     userId: "67b5880e4d09769c5ca61644",
@@ -837,3 +824,278 @@ export const dummyOrders = [
     updatedAt: "2025-03-25T07:17:13.068Z",
   },
 ];*/
+export const allProducts = [
+  // You can add more sample products here
+  {
+    _id: 1,
+    name: "iPhone 13",
+    brand: "Apple",
+    category: "Smartphones",
+    price: "$998.00",
+    price2:"$968.00",
+    price3:"$948.00",
+    image: [mobile1,mobile2],
+    orders: 10,
+    rating: "★★★★★",
+    shipping: "Free Shipping",
+    condition: "Brand New",
+    verified: true,
+    features: "Metalic",
+    inStock: "In Stock",
+    description: "Lorem ipsum dolor sit amet.",
+  },
+  {
+    _id: 2,
+    name: "Galaxy S22",
+    brand: "Samsung",
+    category: "Smartphones",
+    price: "$899.00",
+    price2:"$859.00",
+    price3:"$839.00",
+    image: [mobile2],
+    orders: 95,
+    shipping: "Free Shipping",
+    rating: "★★★★",
+    inStock: "In Stock",
+    features: ["Metalic"],
+    condition: "Refurbished",
+    verified: true,
+    description: "Lorem ipsum dolor sit amet.",
+  },
+  {
+    _id: 3,
+    name: "Lenovo M10",
+    brand: "Lenovo",
+    category: "Smartphones",
+    price: "$299.00",
+    price2:"$269.00",
+    price3:"$259.00",
+    image: [mobile2],
+    orders: 80,
+    shipping: "Free Shipping",
+    rating: "★★★",
+    inStock: "In Stock",
+    condition: "Old Items",
+    feature: ["Metalic"],
+    verified: true,
+    description: "Lorem ipsum dolor sit amet.",
+  },
+   {
+    _id: 4,
+    name: "pocco M10",
+    brand: "pocco",
+    category: "Smartphones",
+    price: "$299.00",
+    price2:"$270.00",
+    price3:"$250.00",
+    image: [mobile2],
+    orders: 80,
+    shipping: "Free Shipping",
+    features: ["Plastic cover"],
+     rating: "★★★★★",
+     inStock: "In Stock",
+    condition: "Old Items",
+    verified: true,
+    description: "Lorem ipsum dolor sit amet.",
+  },
+   {
+    _id: 5,
+    name: "Iphone 15 pro",
+    brand: "Apple",
+    category: "Smartphones",
+    price: "$299.00",
+    price2:"$270.00",
+    price3:"$250.00",
+    image: [mobile3],
+    orders: 80,
+    shipping: "Free Shipping",
+    rating: "★★★★★",
+    inStock: "In Stock",
+    condition: "Old Items",
+    verified: true,
+    description: "Lorem ipsum dolor sit amet.",
+  },
+   {
+    _id: 6,
+    name: "Huawei S90",
+    brand: "Huawei",
+    category: "Smartphones",
+    price: "$299.00",
+    price2:"$270.00",
+    price3:"$250.00",
+    image: [mobile2],
+    orders: 80,
+    shipping: "Free Shipping",
+    rating: "★★★★",
+    inStock: "In Stock",
+    condition: "Old Items",
+    verified: true,
+    description: "Lorem ipsum dolor sit amet.",
+  },
+   {
+    _id: 7,
+    name: "Lenovo Tab M10",
+    brand: "Lenovo",
+    category: "Modern tech",
+    price: "$399.00",
+    price2:"$370.00",
+    price3:"$350.00",
+    image: [tablet],
+    orders: 80,
+    shipping: "Free Shipping",
+    rating: "★★★★",
+    inStock: "In Stock",
+    condition: "Old Items",
+    verified: true,
+    description: "Lorem ipsum dolor sit amet.",
+  },
+   {
+    _id: 8,
+    name: "Huawei Tab S15",
+    brand: "Huawei",
+    category: "Modern tech",
+    price: "$299.00",
+    price2:"$270.00",
+    price3:"$250.00",
+    image: [tablet],
+    orders: 70,
+    shipping: "Free Shipping",
+    condition: "Old Items",
+    inStock: "In Stock",
+    verified: true,
+    description: "Lorem ipsum dolor sit amet.",
+  },
+   {
+    _id: 9,
+    name: "Samsung Tab S10",
+    brand: "Samsung",
+    category: "Modern tech",
+    price: "$399.00",
+    price2:"$370.00",
+    price3:"$350.00",
+    image: [tablet],
+    orders: 180,
+    shipping: "Free Shipping",
+    rating: "★★★★",
+    inStock: "In Stock",
+    condition: "Old Items",
+    verified: true,
+    description: "Lorem ipsum dolor sit amet.",
+  },
+   {
+    _id: 10,
+    name: "IPad 6",
+    brand: "Apple",
+    category: "Modern tech",
+    price: "$499.00",
+    price2:"$480.00",
+    price3:"$469.00",
+    image: [tablet],
+    orders: 280,
+    shipping: "Free Shipping",
+    rating: "★★★★★",
+    inStock: "In Stock",
+    condition: "Brand New",
+    verified: true,
+    description: "Lorem ipsum dolor sit amet.",
+  },
+   {
+    _id: 11,
+    name: "Pocco Tab M10",
+    brand: "pocco",
+    category: "Modern tech",
+    price: "$199.00",
+    price2:"$150.00",
+    price3:"$130.00",
+    image: [tablet],
+    orders: 80,
+    shipping: "Free Shipping",
+    rating: "★★★★★",
+    inStock: "In Stock",
+    condition: "Brand New",
+    verified: true,
+    description: "Lorem ipsum dolor sit amet.",
+  },
+   {
+    _id: 12,
+    name: "Smart Watch",
+    brand: "Apple",
+    category: "Electronics",
+    price: "$299.00",
+    price2:"$280.00",
+    price3:"$270.00",
+    image: [watch],
+    orders: 80,
+    shipping: "Free Shipping",
+    condition: "Brand New",
+    rating: "★★★★★",
+    inStock: "In Stock",
+    verified: true,
+    description: "Lorem ipsum dolor sit amet.",
+  },
+   {
+    _id: 13,
+    name: "Camera",
+    category: "Electronics",
+    price: "$299.00",
+    price2:"$270.00",
+    price3:"$250.00",
+    image: [camera],
+    orders: 80,
+    shipping: "Free Shipping",
+    rating: "★★★★★",
+    inStock: "In Stock",
+    condition: "Old Items",
+    verified: true,
+    description: "Lorem ipsum dolor sit amet.",
+  },
+  {
+    _id: 14,
+    name: "HeadSet",
+    brand: "Apple",
+    category: "Mobile Accessories",
+    price: "$99.00",
+    price2:"$85.00",
+    price3:"$70.00",
+    image: [headset1],
+    orders: 80,
+    shipping: "Free Shipping",
+    rating: "★★★★★",
+    inStock: "In Stock",
+    condition: "Brand New",
+    verified: true,
+    description: "Lorem ipsum dolor sit amet.",
+  },
+  {
+    _id: 15,
+    name: "HeadSet",
+    brand: "Samsung",
+    category: "Mobile Accessories",
+    price: "$70.00",
+    price2:"$60.00",
+    price3:"$50.00",
+    image: [headset2],
+    orders: 180,
+    shipping: "Free Shipping",
+    rating: "★★★★★",
+    inStock: "In Stock",
+    condition: "Brand New",
+    description: "Lorem ipsum dolor sit amet.",
+  },
+  {
+    _id: 16,
+    name: "Mac Book Pro M4",
+    brand: "Apple",
+    category: "Modern tech",
+    price: "$1999.00",
+    price2:"$1500.00",
+    price3:"$1300.00",
+    image: [laptop],
+    orders: 180,
+    shipping: "Free Shipping",
+    rating: "★★★★★",
+    inStock: "In Stock",
+    condition: "Brand New",
+    description: "Lorem ipsum dolor sit amet.",
+  },
+];

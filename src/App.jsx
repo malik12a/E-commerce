@@ -4,6 +4,9 @@ import Header from './components/Header'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/home'
 import Footer from './components/Footer'
+import ProductListing from './pages/ProductListing'
+import Details from './pages/Details'
+import Cart from './pages/Cart'
 
 
 
@@ -16,6 +19,9 @@ const App = () => {
       <div>
         <Routes>
           <Route path='/' element={<Home/>} />
+          <Route path='/computerandtech' element={<ProductListing/>} />
+          <Route path="/details/:id" element={<Details />} />
+          <Route path="/cart" element={<Cart />} />
         </Routes>
       </div>
       <Footer/>
