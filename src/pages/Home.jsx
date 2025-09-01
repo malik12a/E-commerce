@@ -1,6 +1,6 @@
 import React from 'react'
 import Mainbanner from '../components/Mainbanner'
-import Deals from '../components/deals'
+import Deals from '../components/Deals'
 import HomeAndOutdoor from '../components/HomeAndOutdoor'
 import Gagets from '../components/Gagets'
 import Hero from '../components/Hero'
